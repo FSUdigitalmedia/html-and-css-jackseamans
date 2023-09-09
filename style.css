@@ -1,13 +1,37 @@
 body {
-    background-color: lightblue;
-    font-family: Arial, Helvetica, sans-serif;
+    background-color: gray;
+    font-family: Georgia, 'Times New Roman', Times, serif
 }
 
 h1 {
-    color:blue;
-    text-align: center;
+    outline-color: crimson;
+    outline-style: double;
+    color:yellow;
+    text-align: right
+}
+
+h2 {
+    height: 50px;
+    width: 50%;
+    background-color: aliceblue;
+}
+
+aside {
+    outline-color: antiquewhite;
+    outline-style: dotted;
+    outline-width: 5px;
+    text-align: right;
 }
 
 p {
+    outline-style: dashed;
+    outline-color: green;
+    outline-width: 10px;
     padding: 5px;
+    color: aqua;
+}
+
+p2 {
+    padding: 15px;
+    color: blueviolet
 }
